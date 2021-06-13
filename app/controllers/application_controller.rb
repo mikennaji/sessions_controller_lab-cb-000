@@ -12,5 +12,5 @@ class ApplicationController < ActionController::Base
   def require_login
     redirect_to 'new' unless current_user
   end
-  
+
 end
